@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(127, 206, 255);
+}
+
+h1 {
+    text-align: center;
+}
+
+html {
+    position: relative;
+    height: 90vh;
+}
+
+/*_____________________Animation__________________________*/
+body {
+    animation-name: appear;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1
+    }
+
+}
+
+.camion {
+    animation-name: move;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    opacity: 0;
+}
+
+/* @keyframes move {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+
+} */
+
+@keyframes move {
+    0% {
+        left: 10%;
+        opacity: 0;
+    }
+
+    10% {
+        left: 10%;
+        opacity: 1;
+    }
+
+    20% {
+        left: 20%;
+        opacity: 1;
+    }
+
+    30% {
+        left: 30%;
+        opacity: 1;
+    }
+
+    40% {
+        left: 40%;
+        opacity: 1;
+    }
+
+    50% {
+        left: 50%;
+        opacity: 1;
+    }
+
+    60% {
+        left: 60%;
+        opacity: 1;
+    }
+
+    70% {
+        left: 70%;
+        opacity: 1;
+    }
+
+    80% {
+        left: 80%;
+        opacity: 1;
+    }
+
+    90% {
+        left: 90%;
+        opacity: 1;
+    }
+
+    100% {
+        left: 92.5%;
+        opacity: 1;
+    }
+}
+
+/*animation parapente*/
+.parapente {
+    top: 100px;
+    left: 50%;
+    position: absolute;
+    animation-name: down;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+
+}
+
+@keyframes down {
+    0% {
+        top: top;
+        opacity: 0
+    }
+
+    10% {
+        top: 20%;
+        opacity: 1
+    }
+
+    20% {
+        top: 30%;
+        opacity: 1
+    }
+
+    30% {
+        top: 30%;
+        opacity: 1
+    }
+
+    40% {
+        top: 40%;
+        opacity: 1
+    }
+
+    50% {
+        top: 50%;
+        opacity: 1
+    }
+
+    60% {
+        top: 60%;
+        opacity: 1
+    }
+
+    70% {
+        top: 70%;
+        opacity: 1
+    }
+
+    80% {
+        top: 80%;
+        opacity: 1
+    }
+
+    90% {
+        top: 90%;
+        opacity: 1
+    }
+
+    100% {
+        top: 100%;
+        opacity: 1
+    }
+}
